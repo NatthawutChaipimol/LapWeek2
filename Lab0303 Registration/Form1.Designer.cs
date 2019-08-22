@@ -50,10 +50,10 @@
             this.button2 = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.button3 = new System.Windows.Forms.Button();
-            this.registerBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.subjectidDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Subject = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.registerBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.StudentBindingSource)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -244,7 +244,7 @@
             // 
             // button2
             // 
-            this.button2.Location = new System.Drawing.Point(281, 349);
+            this.button2.Location = new System.Drawing.Point(260, 349);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(147, 39);
             this.button2.TabIndex = 3;
@@ -281,19 +281,6 @@
             this.dataGridView2.Size = new System.Drawing.Size(422, 322);
             this.dataGridView2.TabIndex = 1;
             // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(358, 461);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(147, 39);
-            this.button3.TabIndex = 5;
-            this.button3.Text = "Enroll";
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // registerBindingSource
-            // 
-            this.registerBindingSource.DataSource = typeof(Lab0303_Registration.Register);
-            // 
             // subjectidDataGridViewTextBoxColumn1
             // 
             this.subjectidDataGridViewTextBoxColumn1.DataPropertyName = "subject_id";
@@ -311,6 +298,19 @@
             this.Subject.Name = "Subject";
             this.Subject.ReadOnly = true;
             this.Subject.Width = 125;
+            // 
+            // registerBindingSource
+            // 
+            this.registerBindingSource.DataSource = typeof(Lab0303_Registration.Register);
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(358, 461);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(147, 39);
+            this.button3.TabIndex = 5;
+            this.button3.Text = "Enroll";
+            this.button3.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
